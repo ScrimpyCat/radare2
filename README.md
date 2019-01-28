@@ -6,7 +6,7 @@ This fork provides CHASM support to radare so it can be used with [this in-devel
 
 There's currently no intention to try merge this into upstream, as there's no real use case for it other than the toy architecture used in the game.
 
-I currently have idea of adding support to the game so you can remotely connect your radare2 instance to it, and use that as a replacement debugger instead of the in-game debugger. I need to investigate what would be required for this to work however.
+I'm currently thinking of adding support to the game so you can remotely connect your radare2 instance to it, and use that as a replacement debugger instead of the in-game debugger. I need to investigate what would be required for this to work however.
 
 
 ```
