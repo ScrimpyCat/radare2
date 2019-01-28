@@ -42,7 +42,7 @@ System Z, XCore, CR16, HPPA, ARC, Blackfin, Z80, H8/300, V810, V850,
 CRIS, XAP, PIC, LM32, 8051, 6502, i4004, i8080, Propeller, Tricore, Chip8
 LH5801, T8200, GameBoy, SNES, MSP430, Xtensa, NIOS II,
 Dalvik, WebAssembly, MSIL, EBC, TMS320 (c54x, c55x, c55+, c66),
-Hexagon, Brainfuck, Malbolge, DCPU16.
+Hexagon, Brainfuck, Malbolge, DCPU16, [CHASM](https://github.com/ScrimpyCat/Hacking-Game/blob/master/hub-spec.md).
 
 ## File Formats
 
