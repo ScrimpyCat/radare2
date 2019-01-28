@@ -60,6 +60,7 @@ asm_plugins = [
   'arm_winedbg',
   'avr',
   'bf',
+  'chasm',
   'chip8',
   'cr16',
   'cris_gnu',

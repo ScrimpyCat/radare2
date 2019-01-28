@@ -1,0 +1,15 @@
+OBJ_CHASM=asm_chasm.o
+CHASM_ROOT=$(LIBR)/asm/arch/chasm
+OBJ_CHASM+=$(CHASM_ROOT)/HubArchInstruction.o
+CFLAGS+=-I$(CHASM_ROOT)
+
+
+STATIC_OBJ+=${OBJ_CHASM}
+TARGET_CHASM=asm_chasm.${EXT_SO}
+
+ifeq ($(WITHPIC),1)
+ALL_TARGETS+=${TARGET_CHASM}
+
+${TARGET_CHASM}: ${OBJ_CHASM}
+	${CC} ${LDFLAGS} ${CFLAGS} -o ${TARGET_CHASM} ${OBJ_CHASM}
+endif
